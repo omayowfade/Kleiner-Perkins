@@ -31,7 +31,7 @@ Within the parameters of the project, making a random card into its own class ca
 I also decided to split the program into three major portions representing the steps of the Deviation game. This provided clear flow to the project.
 
 Choice of tooling:
-•	Java - Internal Libraries: ‘package com.company’, ‘java.util’
+•	Java - Internal Libraries: ‘package com.company’, ‘java.util’, JDK
 o	Easy object-oriented structure very useful in building card functionality
 o	All-inclusive tools for catching user input and output, respectively.
 •	Terminal Shell
