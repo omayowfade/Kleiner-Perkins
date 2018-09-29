@@ -2,7 +2,8 @@ Deviation- The Game of Champions
 
 Instructions for running the code:
 1)	Enter the KPCG file directory
-2)	Enter the following command: 
+2)	Enter the following command(s):
+sudo apt install default-jdk (ignore this if you already have JDK installed)
 cd src/com/company && javac Main.java && cd ../.. && java com.company.Main
 3)	At the end of the game, you will be asked whether you want to continue playing. If you wish to continue playing, press Y. Otherwise, you can quit by pressing N or pressing CTRL-C at any point in the game.
 
@@ -26,22 +27,22 @@ Step 3: score increase by 1
 
 
 Design choices:
-Within the parameters of the project, making a random card into its own class called ìRandomCardî made sense. Doing so abstracted some of the functionality of the random cards and provided more organization in the project. 
+Within the parameters of the project, making a random card into its own class called ‚ÄúRandomCard‚Äù made sense. Doing so abstracted some of the functionality of the random cards and provided more organization in the project. 
 
 I also decided to split the program into three major portions representing the steps of the Deviation game. This provided clear flow to the project.
 
 Choice of tooling:
-ï	Java - Internal Libraries: ëpackage com.companyí, ëjava.utilí, JDK
+‚Ä¢	Java - Internal Libraries: ‚Äòpackage com.company‚Äô, ‚Äòjava.util‚Äô, JDK
 o	Easy object-oriented structure very useful in building card functionality
 o	All-inclusive tools for catching user input and output, respectively.
-ï	Terminal Shell
+‚Ä¢	Terminal Shell
 	
 Data Structures & Algorithms used:
-ï	Lists ñ store static data for card attributes
-ï	Class Structure ñ ìRandomCardî, Step program structure
+‚Ä¢	Lists ‚Äì store static data for card attributes
+‚Ä¢	Class Structure ‚Äì ‚ÄúRandomCard‚Äù, Step program structure
 
 External Libraries:
-ï	(None)
+‚Ä¢	(None)
 Tests:
-ï	(None)
+‚Ä¢	(None)
 
